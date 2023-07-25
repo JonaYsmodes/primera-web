@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+header {
+    background-color: pink;
+    height: 15vh;
+    }
+main {
+    background-color: white;
+    height: 70vh;
+ }
+footer {
+    background-color: violet;
+    height: 15vh;
+   
+}
+ header, main, footer {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+
+ }
